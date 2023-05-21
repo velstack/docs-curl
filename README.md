@@ -1,4 +1,4 @@
-<p align="center"><a href="https://mnotify.com" target="_blank"><img src="https://dashboard.velstack.com/assets/images/velstack/white-logo.png" width="200" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://mnotify.com" target="_blank"><img src="https://dashboard.velstack.com/assets/images/velstack/logo-white.png" width="200" alt="Laravel Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/sammyfort/mNotify-laravel"><img src="https://img.shields.io/badge/%3C%2F%3E-Laravel%20-blue" alt="Build Status"></a>
