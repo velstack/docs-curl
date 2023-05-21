@@ -11,7 +11,7 @@
 </p>
  
 
-## The [mNotify](https://www.mnotify.com/) package for laravel php.
+## Velstack [cURL] (https://www.velstack.com/) documenation.
 
 ## Installation
 
