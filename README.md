@@ -1,9 +1,7 @@
 <p align="center"><a href="https://mnotify.com" target="_blank"><img src="https://dashboard.velstack.com/public/assets/images/velstack/logo-white.png" width="200" alt="  Logo"></a></p>
 
 <p align="center">
-<a href="https://github.com/sammyfort/mNotify-laravel"><img src="https://img.shields.io/badge/%3C%2F%3E-Laravel%20-blue" alt="Build Status"></a>
-<a href="https://packagist.org/packages/velstack/mnotify"><img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/velstack/mnotify?color=41aa5e&label=Installations"></a>
-<a href="https://packagist.org/packages/velstack/mnotify"><img alt="Packagist Version (custom server)" src="https://img.shields.io/packagist/v/velstack/mnotify?label=Version"></a>
+<a href="https://github.com/sammyfort/mNotify-laravel"><img src="https://img.shields.io/badge/%3C%2F%3E-cURL%20-blue" alt="Build Status"></a>
 <a href="https://packagist.org/packages/velstack/mnotify"><img src="https://img.shields.io/github/license/sammyfort/mNotify-laravel"></a>
 
  
@@ -37,7 +35,7 @@ All http responses are in json format that's every request to our endpoint must 
 curl https://api.velstack.com/messaging/quick/sms
 -H "Authorization: Bearer YOUR_SECRET_KEY"
 -H "Accept: application/json"
--d '{ "authorization_code" : "AUTH_pmx3mgawyd", email: "mail@mail.com", amount: "300000" }'
+-d '{ "sender" : "Velstack", recipient: "020XXXX9304", message: "First sms with velstack Apis" }'
 -X POST
 
 ```
