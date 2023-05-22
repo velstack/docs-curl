@@ -21,10 +21,10 @@ Base url
   https://api.velstack.com
 ```
 
-## Configuration
+## Authentication
 
-
-Run the command below to publish the `'/config/mnotify.php'` file.   
+Velstack uses API keys to `'authenticate'` requests. You can [register](https://dashboard.velstack.com/) or login to get yur API key.
+Eevery request made to this endpoint requires API key to the server as a GET parameter:.   
 
 ```bash
 php artisan vendor:publish --tag=mnotify
