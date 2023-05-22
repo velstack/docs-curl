@@ -33,7 +33,7 @@ All http responses are in json format that's every request to our endpoint must 
 
 ```curl
 curl https://api.velstack.com/messaging/quick/sms
--H "Authorization: Bearer YOUR_SECRET_KEY"
+-H "Authorization: Bearer YOUR_API_KEY"
 -H "Accept: application/json"
 -d '{ "sender" : "Velstack", recipient: "020XXXX9304", message: "First sms with velstack Apis" }'
 -X POST
