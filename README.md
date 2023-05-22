@@ -31,7 +31,7 @@ All http responses are in json format that's every request to our endpoint must 
  
 ## Send Quick SMS
 
-```curl
+```shell
 curl https://api.velstack.com/messaging/quick/sms
 -H "Authorization: Bearer YOUR_API_KEY"
 -H "Accept: application/json"
@@ -47,8 +47,19 @@ curl https://api.velstack.com/messaging/quick/sms
 #### `Response`
 ```json
 {
-    "status": "success",
-    "balance": 59995
+       "status": true,
+    "code": 200,
+    "message": "Message sent successfully",
+    "data": {
+        "summary": {
+            "message_id": "3934ac17-25e8-46cb-ac27-4963b78f87ee",
+            "type": "API Quick SMS",
+            "total_contacts": 1,
+            "recipients": "0205550368",
+            "credit_used": 1,
+            "credit_left": "0.00"
+        }
+    }
 }
 
 ```
