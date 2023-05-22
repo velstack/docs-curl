@@ -1,8 +1,8 @@
 <p align="center"><a href="https://mnotify.com" target="_blank"><img src="https://dashboard.velstack.com/build/images/velstack/logo-white.png" width="200" alt="  Logo"></a></p>
 
 <p align="center">
-<a href="https://github.com/sammyfort/mNotify-laravel"><img src="https://img.shields.io/badge/%3C%2F%3E-cURL%20-blue" alt="Build Status"></a>
-<a href="https://packagist.org/packages/velstack/mnotify"><img src="https://img.shields.io/github/license/sammyfort/mNotify-laravel"></a>
+<a href="https://github.com/velstack/"><img src="https://img.shields.io/badge/%3C%2F%3E-cURL%20-blue" alt="Build Status"></a>
+<a href="https://packagist.org/packages/velstack/mnotify"><img src="https://img.shields.io/github/license/velstack/docs-curl"></a>
 
  
 
@@ -21,7 +21,7 @@ Base url
 
 ## Authentication
 
-Velstack uses API keys to `'authenticate'` requests. You can [register](https://dashboard.velstack.com/) or login to get yur API key.
+Velstack uses API keys to `'authenticate'` requests. You can [register](https://dashboard.velstack.com/) or login to get your API key.
 Eevery request made to this endpoint requires API key to the server as a GET parameter:.   
 
 ## Responses
