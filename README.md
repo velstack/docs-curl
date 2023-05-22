@@ -64,6 +64,42 @@ curl https://api.velstack.com/messaging/quick/sms
 
 ```
  
+ 
+  
+## Send Group SMS
+
+```shell
+curl https://api.velstack.com/messaging/group/sms
+-H "Authorization: Bearer YOUR_API_KEY"
+-H "Accept: application/json"
+-d '{ "sender" : "Velstack", group_id: "c9e5ed73-2580-4f1a-ad17-35ceedb1cbe7", message: "First group sms with velstack Apis" }'
+-X POST
+
+```
+ 
+ 
+ 
+ 
+
+#### `Response`
+```json
+{
+    "status": true,
+    "code": 200,
+    "message": "Message sent Successfully",
+    "data": {
+        "summary": {
+            "message_id": "fa1f2a05-a7c1-4d05-b373-7b9731cf00a5",
+            "type": "API Group SMS",
+            "total_contacts": 2,
+            "recipients": "020555XXX,0248297302",
+            "credit_used": 2,
+            "credit_left": "0.00"
+        }
+    }
+}
+
+```
   
 <p align="center">
   Sammy Fort ©2023. Powered by <a href="https://velstack.com/">Velstack</a>
